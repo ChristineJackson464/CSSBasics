@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    /* Shorthand to include font: weight, size & family  */
+    font: normal 16px Arial, Helvetica, sans-serif; 
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+.button {
+    background-color: #333;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background-color: red;
+    color: #000;
+}
+
+.clr {
+    clear: both;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+}
+
+header h1 {
+    margin: 30px 0 0 20px;
+    font-size: 40px;
+}
+
+header h3, 
+header ul {
+    margin: -1.6rem 0 .5rem 32rem;
+}
+
+header ul {
+    margin-top: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.screenshots img {
+    width: 500px;
+    padding: 15px;
+}
+
+.box1 {
+    background-color: #333;
+    border: 5px red solid;
+    color: #fff;
+    padding: 10px;
+}
+
+p {
+    padding: 5px 10px;
+}
+
+.box2 {
+    background-color: #e535;
+    border: 5px red dashed;
+    color: #555;
+    padding: 10px;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    margin-left: 12rem;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    color: #000;
+
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    margin-left: 2rem;
+    padding: 0;
+    list-style: square;
+}
+
+.categories li {
+    border-bottom: 5px;
+    list-style-image: url(img/checkmark.png);
+}
+
+.myForm {
+    padding: 20px;
+}
+
+.myForm .form-group {
+    padding-bottom: 15px;
+}
+
+.myForm label {
+    display: block;
+}
+
+.myForm input[type="text"], 
+.myForm textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#mainBlock {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sideBar {
+    float: right;
+    width: 30%;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.pBox {
+    background-image: url("img/css.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    width: 800px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+.pBox h1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.pBox h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fixMe {
+    position: fixed;
+    top: 400px;
+}
+
+.myList {
+    width: 70%;
+    margin: 2rem;
+    margin-left: 5rem;
+}
+
+.myList li:first-child {
+    background: red;
+    color: violet;
+}
+
+.myList li:nth-child(2) {
+    background: orange;
+    color: indigo;
+}
+
+.myList li:nth-child(3) {
+    background: yellow;
+    color: blue;
+}
+
+.myList li:nth-child(4) {
+    background: green;
+    color: lime
+}
+
+.myList li:nth-child(5) {
+    background: blue;
+    color: yellow
+}
+
+.myList li:nth-child(6) {
+    background: indigo;
+    color: orange
+}
+
+.myList li:nth-child(7) {
+    background: violet;
+    color: red;
+}
+
+.myList li:nth-child(8) {
+    background: #fff;
+    color:#000
+}
+
+.myList li:last-child {
+    background: #000;
+    color:#fff
+}
+
+
+
